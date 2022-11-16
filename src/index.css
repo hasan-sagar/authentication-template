@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+}
+
+p {
+  color: #344950;
+  font-weight: 300;
+}
+
+.heading-text {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  color: #219ebc;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+.pic--text {
+  font-family: "Oleo Script", cursive;
+  font-size: 55px;
+  color: #fdfffc;
+}
+
+a {
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+a:hover {
+  text-decoration: none !important;
+}
+
+.content {
+  padding: 7rem 0;
+}
+
+.half,
+.half .container > .row {
+  height: 100vh;
+}
+
+@media (max-width: 991.98px) {
+  .half .bg {
+    height: 500px;
+  }
+}
+
+.half .contents,
+.half .bg {
+  width: 50%;
+}
+@media (max-width: 1199.98px) {
+  .half .contents,
+  .half .bg {
+    width: 100%;
+  }
+}
+.half .contents .form-group,
+.half .bg .form-group {
+  overflow: hidden;
+  margin-bottom: 0;
+  /* border: 2px solid #efefef; */
+  padding: 15px 15px;
+  border-bottom: none;
+  position: relative;
+}
+
+.half .contents .form-group.first,
+.half .bg .form-group.first {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.half .contents .form-group.last,
+.half .bg .form-group.last {
+  border-bottom: 1px solid #cbcbcb;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.half .contents .form-control,
+.half .bg .form-control {
+  border: none;
+  padding: 0;
+  font-size: 20px;
+  border-radius: 0;
+}
+.half .contents .form-control:active,
+.half .contents .form-control:focus,
+.half .bg .form-control:active,
+.half .bg .form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.form-group ::placeholder {
+  font-size: 16px;
+}
+
+.half .bg {
+  background-size: cover;
+  background-position: center;
+}
+
+.half .btn {
+  height: 54px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  background-color: #219ebc;
+  color: white;
+}
+.half .btn:hover {
+  background-color: #344950;
+  color: white;
+}
